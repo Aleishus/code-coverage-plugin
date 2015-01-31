@@ -1,0 +1,38 @@
+Manifest-Version: 1.0
+Created-By: 1.6.0_45 (Apple Inc.)
+
+Name: plugins/org.jacoco.report_0.7.2.201409121644.jar
+SHA1-Digest: YfDe37HRkLvt/iEz7xiHl6Nkc+U=
+
+Name: plugins/org.jacoco.core_0.7.2.201409121644.jar
+SHA1-Digest: l3R4aFl68sWVpcxLNLlaaJ7y1sM=
+
+Name: plugins/com.mountainminds.eclemma.ui_2.3.2.201409141915.jar
+SHA1-Digest: HXxBuGeM+sGfrZVVg4QEEP3xs98=
+
+Name: plugins/com.mountainminds.eclemma.asm_2.3.2.201409141915.jar
+SHA1-Digest: 0+UxzBzT2RkGWWmrpRLcSMZy9ZM=
+
+Name: features/com.mountainminds.eclemma.feature_2.3.2.201409141915.ja
+ r
+SHA1-Digest: uxdAKO68lJn/eBlQhZHhOYm1e28=
+
+Name: artifacts.jar
+SHA1-Digest: xcqNOuu2Jo4AkdJ4oNX2NJ1DeEk=
+
+Name: plugins/org.jacoco.agent_0.7.2.201409121644.jar
+SHA1-Digest: 9AdZf8t7imqsGOUbkwKQmd3TUuo=
+
+Name: plugins/com.mountainminds.eclemma.doc_2.3.2.201409141915.jar
+SHA1-Digest: gClhfRrg81GHhjOgWRXF+w/RPTw=
+
+Name: plugins/com.mountainminds.eclemma.core_2.3.2.201409141915.jar
+SHA1-Digest: g41FmKbuUvo9/aiRW5096rhid4w=
+
+Name: plugins/com.mountainminds.eclemma.debug.ui.compatibility_2.3.2.2
+ 01409141915.jar
+SHA1-Digest: JfUjNyJEBbOeJ0mjWTPenawtiBU=
+
+Name: content.jar
+SHA1-Digest: lUXmu/EoRg4gLc/sKpZZbLQLqws=
+
