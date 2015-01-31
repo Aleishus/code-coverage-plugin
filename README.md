@@ -1,12 +1,14 @@
-#代码覆盖率插件使用#
+
+代码覆盖率插件使用
+============
 
 
-##1.使用Eclipse插件##
+1.使用Eclipse插件
+-----------------
 
 * 安装插件
-  	
-  	
-  		1.进入eclispe根目录
+		
+		1.进入eclispe根目录
   		
      
      ![eclipse](images/eclipse.png)
@@ -23,8 +25,10 @@
      
   		
       3.重启eclipse,打开import视图出现Coverage Sesssion 表明安装插件成功
+
      ![plugin3](images/plugin3.png)
      
-*      
+      
 
-##2.使用代码的生成报告##
+2.使用代码的生成报告
+=================
