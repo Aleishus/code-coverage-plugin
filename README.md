@@ -25,8 +25,9 @@
   		
         3.重启eclipse,打开import视图出现Coverage Sesssion 恭喜你插件安装成功了^ ^
 
-     ![plugin3](images/plugin3.png)
-     
+     ![plugin3](images/plugin3.png)     
+
+---     
    
 * 接下来启动要测试项目，这里以cs系统为例
      
@@ -57,6 +58,7 @@
 
     4.现在应用已经启动好了吧，接下就尽情的跑你的测试用例吧，哈哈。    
 
+---
     
 * 最后查代码覆盖率报告
 
@@ -83,7 +85,9 @@
 -----------------
 该方式支持远程部署，远程测试，配置定时生成覆盖率报告等。
 
+---
 * 添加maven的vm参数 （MAVEN_OPTS）
+
 
 	    -javaagent:/Users/Aleishus/Desktop/coverage/jacocoagent.jar=includes=com.yjf.cs.*:com.yjf.paycore.*,output=tcpserver,address=*,port=12345
 
@@ -103,7 +107,7 @@
 启动好之后你就可以正常的跑你的测试用例了
 
 
-
+---
 * 生成覆盖率报告
 
 
@@ -140,10 +144,12 @@
 ![plugin3](images/15.png)
 
 
+
 2.在elipse中查看报告
  
  也可以利用eclipse插件来查看远程覆盖率报告(按照基础篇安装插件)，具体方式如下：
 
+---
  * 替换maven-compile-plugin （eclipse使用编译器是ecj不是javac，两者编译出来class是有区别的）这里我们同一使用eclipse的编译器，把原来的maven编译插件替换成如下：
  		
  		 <plugin>
@@ -166,7 +172,8 @@
     	 </plugin>
     	 
   替换之后正常启动
-  
+
+---  
  * 配置eclispe插件
 
   首先导入项目正常build，然后
