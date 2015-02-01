@@ -62,9 +62,9 @@
 
 ---
     
-* 最后查代码覆盖率报告
+* 最后查看代码覆盖率报告
 
-    激动人心的时候就要到啦，你测试用力到底写的好不好，看看覆盖率就知道啦— -
+    激动人心的时候就要到啦，你测试用例到底写的好不好，看看覆盖率就知道啦— -
     
     ![plugin3](images/8.png)
 
@@ -79,7 +79,7 @@
     ![plugin3](images/13.png)
     
     
-好了， 到此为止怎样使用eclipse插件查看测试用例代码覆盖率的方法已经完了，你已经学会了吧，如果还用兴趣看看下面的提高篇把。
+好了， 到此为止怎样使用eclipse插件查看测试用例代码覆盖率的方法已经完了，你已经学会了吧，如果还有兴趣的话看看下面的提高篇把。
 
     
 
@@ -136,14 +136,16 @@
                 CoverageReportGenerator generator = new CoverageReportGenerator(address,dumpFile
                 ,reportBaseDir,projectBaseDir) ;
                 generator.generateCoveragReport(false); //如果为true覆盖率不会被累加
-    }
-}
+    		}
+		}
 
-执行之后就可以生成报告了
+执行之后就可以生成报告了，如下图：
 
 ![plugin3](images/14.png)	
 
 ![plugin3](images/15.png)
+
+
 
 
 
@@ -152,7 +154,7 @@
  也可以利用eclipse插件来查看远程覆盖率报告(按照基础篇安装插件)，具体方式如下：
 
 ---
- * 替换maven-compile-plugin （eclipse使用编译器是ecj不是javac，两者编译出来class是有区别的）这里我们同一使用eclipse的编译器，把原来的maven编译插件替换成如下：
+ * 替换maven-compile-plugin （eclipse使用编译器是ecj不是javac，两者编译出来class是有区别的）这里我们统一使用eclipse的编译器，把原来的maven编译插件替换成如下：
  		
  		 <plugin>
          <groupId>org.apache.maven.plugins</groupId>
@@ -173,7 +175,7 @@
          </dependencies>
     	 </plugin>
     	 
-  替换之后正常启动
+  替换之后正常启动，跑你的测试是用例吧
 
 ---  
  * 配置eclispe插件
