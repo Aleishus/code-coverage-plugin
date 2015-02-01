@@ -90,8 +90,11 @@
 说明：
 
 `/Users/Aleishus/Desktop/coverage/jacocoagent.jar` ->将压缩包中jacocoagent.jar放到任意位置，并配置绝对路径
+
 `includes=com.yjf.cs.*:com.yjf.paycore.*` ->配置你要覆盖测试的classes，多个用冒号隔开
+
 `output=tcpserver,address=*,port=12345` -> 需要用于连接的ip和端口地址，通常只需要配置port就好了
+
 
 * 通过maven插件启动你的应用
 
