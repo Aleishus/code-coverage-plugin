@@ -123,7 +123,23 @@
 		</dependency>
 
 
-   代码	(使用前请在项目中使用`mvn compile` 生成class文件,编译的jdk版本要和远程启动应用的jdk版本一致)
+   代码，使用前请在项目中使用`mvn compile` 生成class文件,编译的jdk版本要和远程启动应用的jdk版本一致，编译前要将maven-compile-plugin调成 debug 模式（使用release 方式编译出来class和java源代码是有出入的）。
+   			
+
+		<plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-compiler-plugin</artifactId>
+        <version>3.2</version>
+        <configuration>
+            <compilerId>eclipse</compilerId>
+            <source>1.7</source>
+            <target>1.7</target>
+            <debug>true</debug>
+            <encoding>UTF-8</encoding>
+        </configuration>
+        </plugin>
+   	   		
+---
 
 		public class ReportTest {
 
@@ -163,6 +179,7 @@
             <compilerId>eclipse</compilerId>
             <source>1.7</source>
             <target>1.7</target>
+            <debug>true</debug>
             <encoding>UTF-8</encoding>
          </configuration>
          <dependencies>
