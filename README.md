@@ -112,7 +112,7 @@
 ### 生成覆盖率报告
 
 
-1.编程方式生成html形式的报告
+#### 1.编程方式生成html形式的报告
 
    下载maven依赖  	
 
@@ -148,12 +148,12 @@
 
 
 
-2.在elipse中查看报告
+#### 2.在elipse中查看报告
  
  也可以利用eclipse插件来查看远程覆盖率报告(按照基础篇安装插件)，具体方式如下：
 
 ---
-### 替换maven-compile-plugin （eclipse使用编译器是ecj不是javac，两者编译出来class是有区别的）这里我们统一使用eclipse的编译器，把原来的maven编译插件替换成如下：
+##### 替换maven-compile-plugin （eclipse使用编译器是ecj不是javac，两者编译出来class是有区别的）这里我们统一使用eclipse的编译器，把原来的maven编译插件替换成如下：
  		
  		 <plugin>
          <groupId>org.apache.maven.plugins</groupId>
@@ -177,7 +177,7 @@
   替换之后正常启动，跑你的测试用例吧
 
 ---  
-### 配置eclispe插件
+##### 配置eclispe插件
 
   首先导入项目正常build，然后
   
