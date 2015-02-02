@@ -73,9 +73,11 @@
 
    ![plugin3](images/11.png)
 
-   ![plugin3](images/12.png)
+   ![plugin3](images/12.png)      
 
    ![plugin3](images/13.png)
+   
+   ![plugin3](images/21.png)
     
     
 #### 好了， 到此为止怎样使用eclipse插件查看测试用例代码覆盖率的方法已经完了，你已经学会了吧，如果还有兴趣的话看看下面的提高篇吧。
