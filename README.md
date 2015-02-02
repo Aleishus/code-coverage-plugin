@@ -12,20 +12,20 @@
 		1.进入eclispe根目录
   		
     
-     ![eclipse](images/1.png)
+   ![eclipse](images/1.png)
 
      
 
         2.将压缩包中的eclipse文件夹拷贝到eclipse的dropins中
 
 
-     ![plugin](images/2.png)
+   ![plugin](images/2.png)
      
      
   		
         3.重启eclipse,打开import视图出现Coverage Sesssion 恭喜你插件安装成功了^ ^
 
-     ![plugin3](images/plugin3.png)     
+   ![plugin3](images/plugin3.png)     
 
 
 ---      
@@ -35,22 +35,21 @@
   
     1.导入工程到eclipse。
 
-
-	![plugin3](images/3.png)    
+   ![plugin3](images/3.png)    
 
 
     2.切换到java工程视图
 
 
-    ![plugin3](images/4.png)  
+   ![plugin3](images/4.png)  
 
 
     3.以覆盖率的方式启动应用，看看下面的图。
 
 
-    ![plugin3](images/5.png)  
-    ![plugin3](images/6.png)
-    ![plugin3](images/7.png)
+   ![plugin3](images/5.png)  
+   ![plugin3](images/6.png)
+   ![plugin3](images/7.png)
 
 
     
@@ -66,17 +65,17 @@
 
     激动人心的时候就要到啦，你测试用例到底写的好不好，看看覆盖率就知道啦— -
     
-    ![plugin3](images/8.png)
+   ![plugin3](images/8.png)
 
-    ![plugin3](images/9.png)
+   ![plugin3](images/9.png)
 
-    ![plugin3](images/10.png)
+   ![plugin3](images/10.png)
 
-    ![plugin3](images/11.png)
+   ![plugin3](images/11.png)
 
-    ![plugin3](images/12.png)
+   ![plugin3](images/12.png)
 
-    ![plugin3](images/13.png)
+   ![plugin3](images/13.png)
     
     
 #### 好了， 到此为止怎样使用eclipse插件查看测试用例代码覆盖率的方法已经完了，你已经学会了吧，如果还有兴趣的话看看下面的提高篇把。
