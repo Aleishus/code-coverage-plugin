@@ -133,7 +133,6 @@
         <artifactId>maven-compiler-plugin</artifactId>
         <version>3.2</version>
         <configuration>
-            <compilerId>eclipse</compilerId>
             <source>1.7</source>
             <target>1.7</target>
             <debug>true</debug>
